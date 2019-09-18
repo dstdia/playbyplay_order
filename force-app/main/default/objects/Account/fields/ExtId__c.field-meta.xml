@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ExtId__c</fullName>
+    <caseSensitive>false</caseSensitive>
+    <description>Record Id in external system</description>
+    <externalId>true</externalId>
+    <inlineHelpText>Enter the ID for this record in an internal system</inlineHelpText>
+    <label>External ID</label>
+    <length>10</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MaxAccount__c</fullName>
+    <defaultValue>0</defaultValue>
+    <description>Maximum combined discount allowed for thie account</description>
+    <externalId>false</externalId>
+    <label>Max. Discount</label>
+    <precision>7</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Percent</type>
+</CustomField>

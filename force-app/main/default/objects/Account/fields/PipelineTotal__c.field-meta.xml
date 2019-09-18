@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PipelineTotal__c</fullName>
+    <externalId>false</externalId>
+    <label>Pipeline (Total)</label>
+    <summarizedField>Offer__c.TotalPrice__c</summarizedField>
+    <summaryFilterItems>
+        <field>Offer__c.Status__c</field>
+        <operation>equals</operation>
+        <value>Ready, Presented</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Offer__c.Account__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <type>Summary</type>
+</CustomField>

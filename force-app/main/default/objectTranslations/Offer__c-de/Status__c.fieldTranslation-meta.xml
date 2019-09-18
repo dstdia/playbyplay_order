@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Status --></label>
+    <name>Status__c</name>
+    <picklistValues>
+        <masterLabel>Draft</masterLabel>
+        <translation><!-- Draft --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lost / No Decision</masterLabel>
+        <translation><!-- Lost / No Decision --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Presented</masterLabel>
+        <translation><!-- Presented --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ready</masterLabel>
+        <translation><!-- Ready --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Won</masterLabel>
+        <translation><!-- Won --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Validation_wo_Bypass</fullName>
+    <active>false</active>
+    <description>Checks if the Account type has been filled.</description>
+    <errorConditionFormula>ISBLANK(TEXT(Type))</errorConditionFormula>
+    <errorDisplayField>Type</errorDisplayField>
+    <errorMessage>You have to pick an Account type</errorMessage>
+</ValidationRule>
